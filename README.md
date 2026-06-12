@@ -10,35 +10,22 @@ A fintech startup needs to understand who their customers are based on behaviora
 - **Missing values:** MINIMUM_PAYMENTS (313 nulls, 3.50%), CREDIT_LIMIT (1 null)
 
 ## Project Structure
-customer-segmentation-fintech/
 
-├── data/
-│
-│   ├── raw/                  # Original Kaggle dataset
-│
-│   └── processed/            # Cleaned, scaled, and clustered data
-│
-├── notebooks/
-│
-│   ├── 01_data_collection.ipynb
-│
-│   ├── 02_eda.ipynb
-│
-│   ├── 03_preprocessing.ipynb
-│
-│   ├── 04_modeling.ipynb
-│
-│   └── 05_interpretation.ipynb
-│
-├── models/
-│
-│   └── kmeans_k4.pkl         # Trained K-Means model (K=4)
-│
-├── reports/
-│
-├── requirements.txt
-│
-└── README.md
+    customer-segmentation-fintech/
+    ├── data/
+    │   ├── raw/                  # Original Kaggle dataset
+    │   └── processed/            # Cleaned, scaled, and clustered data
+    ├── notebooks/
+    │   ├── 01_data_collection.ipynb
+    │   ├── 02_eda.ipynb
+    │   ├── 03_preprocessing.ipynb
+    │   ├── 04_modeling.ipynb
+    │   └── 05_interpretation.ipynb
+    ├── models/
+    │   └── kmeans_k4.pkl
+    ├── reports/
+    ├── requirements.txt
+    └── README.md
 ## Methodology
 
 ### Preprocessing
